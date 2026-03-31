@@ -1,7 +1,7 @@
-title: Decentralized Safe Path Following for Multi-Quadrotor Systems
-description: Project webpage for decentralized safe path following of multiple quadrotors
+title: Modeling and Control of a Unicycle Robot on Manifolds
+description: Project webpage for the CDC paper by Adeel Akhtar and Mohamed Al Lawati
 url: "https://gradslab.github.io"
-baseurl: "/tfl_cbf_safe_multiagent_pf"
+baseurl: "/UnicycleOnManifolds"
 
 markdown: kramdown
 

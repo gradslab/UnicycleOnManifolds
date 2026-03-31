@@ -1,0 +1,15 @@
+title: Decentralized Safe Path Following for Multi-Quadrotor Systems
+description: Project webpage for decentralized safe path following of multiple quadrotors
+url: "https://gradslab.github.io"
+baseurl: "/tfl_cbf_safe_multiagent_pf"
+
+markdown: kramdown
+
+exclude:
+  - README.md
+  - Readme.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor

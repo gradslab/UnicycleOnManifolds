@@ -120,5 +120,5 @@ title('Checkig derivatives')
 
 %% animate
 
-animate([Z(:,1).'; Z(:,2).'; Z(:,3).'], T, r,a,b,c, 'Record', false, 'Filename', 'unicyle_on_manifold.mp4')
-% snapshots([Z(:,1).'; Z(:,2).'; Z(:,3).'], T, r,a,b,c, [0 1 3  6  7  9 11 12])
+% animate([Z(:,1).'; Z(:,2).'; Z(:,3).'], T, r,a,b,c, 'Record', false, 'Filename', 'unicyle_on_manifold.mp4')
+snapshots([Z(:,1).'; Z(:,2).'; Z(:,3).'], T, r,a,b,c, [0 1 3  6  7  9 11 12])

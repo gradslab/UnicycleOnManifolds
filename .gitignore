@@ -29,12 +29,6 @@ _site/
 *.mp4
 *.eps
 
-# Optional additional figure/image outputs
-*.png
-*.jpg
-*.jpeg
-*.svg
-
 # -----------------------------
 # MATLAB editor / autosave
 # -----------------------------
@@ -44,7 +38,6 @@ _site/
 
 # -----------------------------
 # MATLAB compiled binaries (MEX)
-# Keep these out unless you explicitly want to version them
 # -----------------------------
 *.mexmaci64
 *.mexw64
@@ -55,9 +48,11 @@ _site/
 # -----------------------------
 *.mlappinstall
 *.ctf
-*.prj
 *.pcode
 *.p
+
+# Uncomment only if you do NOT want MATLAB project files
+# *.prj
 
 # -----------------------------
 # Simulink / MATLAB generated folders
@@ -70,8 +65,6 @@ simulink_cache/
 SimulinkCache/
 work/
 cache/
-
-# Simulink generated cache files
 *.slxc
 
 # -----------------------------
@@ -82,12 +75,22 @@ cache/
 *.temp
 
 # -----------------------------
-# Data / results folders
-# Uncomment if these are generated and should not be tracked
+# Generated images in code folders
 # -----------------------------
-# data/
-# results/
-# output/
-# outputs/
-# videos/
-# figures/generated/
+dynamic/**/*.png
+dynamic/**/*.jpg
+dynamic/**/*.jpeg
+dynamic/**/*.svg
+dynamic/**/*.gif
+
+fixed_v/**/*.png
+fixed_v/**/*.jpg
+fixed_v/**/*.jpeg
+fixed_v/**/*.svg
+fixed_v/**/*.gif
+
+FaceImage/**/*.png
+FaceImage/**/*.jpg
+FaceImage/**/*.jpeg
+FaceImage/**/*.svg
+FaceImage/**/*.gif

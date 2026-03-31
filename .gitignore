@@ -1,22 +1,93 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# -----------------------------
+# OS / editors
+# -----------------------------
+.DS_Store
 .vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-file
-*.flf
-#Test results file
-TestResults.xml
+.idea/
+
+# -----------------------------
+# Jekyll / GitHub Pages
+# -----------------------------
+_site/
+.jekyll-cache/
+
+# -----------------------------
+# Research output artifacts
+# -----------------------------
+*.pdf
+*.fig
+*.mp4
+*.eps
+
+# Optional additional figure/image outputs
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# -----------------------------
+# MATLAB editor / autosave
+# -----------------------------
+*.asv
+*.m~
+*.autosave
+
+# -----------------------------
+# MATLAB compiled binaries (MEX)
+# Keep these out unless you explicitly want to version them
+# -----------------------------
+*.mexmaci64
+*.mexw64
+*.mexa64
+
+# -----------------------------
+# MATLAB app / packaged / generated artifacts
+# -----------------------------
+*.mlappinstall
+*.ctf
+*.prj
+*.pcode
+*.p
+
+# -----------------------------
+# Simulink / MATLAB generated folders
+# -----------------------------
+slprj/
+sccprj/
+codegen/
+resources/project/
+simulink_cache/
+SimulinkCache/
+work/
+cache/
+
+# Simulink generated cache files
+*.slxc
+
+# -----------------------------
+# Logs / temporary outputs
+# -----------------------------
+*.log
+*.tmp
+*.temp
+
+# -----------------------------
+# Data / results folders
+# Uncomment if these are generated and should not be tracked
+# -----------------------------
+# data/
+# results/
+# output/
+# outputs/
+# videos/
+# figures/generated/
